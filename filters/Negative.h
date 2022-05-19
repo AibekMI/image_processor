@@ -1,0 +1,8 @@
+#pragma once
+
+#include "Filter.h"
+
+class Negative : public Filter {
+public:
+    Image Apply(const Image &image) const override;
+};
